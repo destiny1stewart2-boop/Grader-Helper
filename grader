@@ -1,0 +1,17 @@
+def adjust_score(score):
+    score = score + 5
+    if score > 100:
+        score = 100
+    return score
+
+score1 = int(input("Enter score for student 1: "))
+final1 = adjust_score(score1)
+print("Final score for student 1:", final1)
+
+score2 = int(input("Enter score for student 2: "))
+final2 = adjust_score(score2)
+print("Final score for student 2:", final2)
+
+score3 = int(input("Enter score for student 3: "))
+final3 = adjust_score(score3)
+print("Final score for student 3:", final3)
